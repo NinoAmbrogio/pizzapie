@@ -1,0 +1,78 @@
+@import url(./index.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 100px;
+}
+
+.logo a{
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 580;
+  font-size: 1.2rem;
+  
+}
+
+.lista ul{
+  display: flex;
+  list-style: none;
+}
+
+.lista ul li{
+  padding: 10px 20px;
+}
+
+.lista a{
+  font-size: 1rem;
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 480;
+}
+
+.lista a:hover{
+color: var(--primary-color);
+
+}
+
+.lista ul li:last-child{
+
+    width: 60px;
+    height: 50px;
+
+    
+}
+
+.lista ul li:last-child img{
+width: 100%;
+
+
+}
+
+.sezione{
+padding:50px 10% ;
+
+}
+.left h1{
+    font-size: var(--big-font);
+    color: var(--primary-color);
+
+
+}
+
+.image img{
+width: 100%;
+overflow-clip-margin:content-box ;
+overflow: clip;
+
+}
+
