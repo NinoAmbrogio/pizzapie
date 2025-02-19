@@ -14,13 +14,21 @@
   border-radius: 0.5rem;
   text-decoration: none;
 }
-
+header{
+ position: fixed;
+ width: 100%;
+ top: 0;
+ right: 0;
+ z-index: 1000;
+ background-color: white;
+ padding: 18px 100px
+}
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 100px;
+
 }
 
 .logo a {
@@ -94,6 +102,8 @@ main {
 #about {
   display: flex;
   gap: 1.5rem;
+  padding: 50px 10%;
+
 }
 .about-left,
 .about-right {
@@ -119,4 +129,42 @@ main {
 
 .about-right p {
   margin: 0.8rem 0 1.8rem;
+}
+.heading{
+  text-align:center ;
+  
+  
+}
+.heading span{
+color: var(--primary-color);
+font-weight: 500;
+
+}
+.heading h2{
+  font-size: var(--h2-font);
+}
+
+.menu-section{
+margin:2rem;
+padding: 50px 10%;
+align-items: center;
+
+}
+#lepizze{
+  position: relative;
+  margin-top: 2rem;
+  height: auto;
+  align-items: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgb(4 64 54 / 10%);
+  padding: 10px;
+}
+
+.imgcontainer{
+display: flex;
+align-items: center;
+}
+.imgcontainer img{ 
+  width: 10%;
+  height: 10%;
 }
