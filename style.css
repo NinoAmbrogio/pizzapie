@@ -131,6 +131,7 @@ main {
 .about-right p {
   margin: 0.8rem 0 1.8rem;
 }
+/*-------------------------------------------sectionmenu----------------------*/
 .heading{
   text-align:center ;
   
@@ -154,7 +155,6 @@ padding: 50px 10%;
   display: flex;
   align-items: center;
   justify-content: space-between ;
-
   }
 #lepizze{
   position: relative;
@@ -162,6 +162,7 @@ padding: 50px 10%;
   box-shadow: 0 2px 4px rgb(4 64 54 / 10%);
   width: 20%;
   text-align:center ;
+  
 }
 
 .imgcontainer img{ 
@@ -171,5 +172,47 @@ padding: 50px 10%;
   display: block;
   box-shadow: 0 2px 4px rgb(4 64 54 / 10%);
   object-fit: cover;
-  
+  border-radius: 0 0.5rem 0 0.5rem;
+
+}
+ #lepizze i{
+position: absolute;
+  width: 20px;
+  height: 20px;
+right: 0; 
+top: 0;
+background-color:var(--primary-color) ;
+border-radius: 0 0.5rem 0 0.5rem;
+
+
+}
+
+
+
+
+/*---------------------Section2---------------*/
+.sezione2{
+padding: 50px 10%;
+
+
+
+}
+
+.cardcontainer{
+  display:flex;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.osd img{
+width: 60px;
+
+}
+
+
+.order{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
