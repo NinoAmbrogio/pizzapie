@@ -146,6 +146,7 @@ font-weight: 500;
   font-size: var(--h2-font);
 }
 
+
 .menu-section{
 margin:2rem;
 padding: 50px 10%;
@@ -154,7 +155,7 @@ padding: 50px 10%;
 .imgcontainer{
   display: flex;
   align-items: center;
-  justify-content: space-between ;
+  justify-content: space-between;
   }
 #lepizze{
   position: relative;
@@ -164,6 +165,11 @@ padding: 50px 10%;
   text-align:center ;
   
 }
+#lepizze h3{
+font-weight: 400;
+  
+}
+
 
 .imgcontainer img{ 
   width:100%;
@@ -216,3 +222,20 @@ width: 60px;
   align-items: center;
   justify-content: space-between;
 }
+/*--------------------Connect-------------*/
+.connect{
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 50px 10%;
+}
+.connect span{
+color: var(--primary-color);
+}
+
+.connect h2{
+  font-size: var(--h2-font);
+
+}
+
+
